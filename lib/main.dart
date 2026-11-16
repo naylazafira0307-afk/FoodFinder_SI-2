@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
-import 'data/app_state.dart';
-import 'pages/katalog/katalog_page.dart';
+import 'pages/login/login_page.dart';
 import 'theme.dart';
 
 void main() {
-  app.login('demo@kosmah.id', '123456'); // login otomatis (sementara)
   runApp(const LapakosApp());
 }
 
@@ -19,9 +16,8 @@ class LapakosApp extends StatelessWidget {
       title: 'Lapakos',
       debugShowCheckedModeBanner: false,
       theme: buildTheme(),
-      home: const KatalogPage(),
+      // Halaman pertama: Login. Setelah login berhasil -> HomeShell (5 tab).
+      home: const LoginPage(),
     );
   }
 }
-=======
->>>>>>> a1c1edb1265624befc2926680df6147464e70468
