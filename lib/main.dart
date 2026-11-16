@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 import 'data/app_state.dart';
@@ -22,3 +23,5 @@ class LapakosApp extends StatelessWidget {
     );
   }
 }
+=======
+>>>>>>> a1c1edb1265624befc2926680df6147464e70468
